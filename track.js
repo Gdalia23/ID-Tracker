@@ -29,7 +29,7 @@ var banner = async (id, token) => {
         },
     })
     let data = await response.json();
-    return "https://cdn.discordapp.com/banners/" + id + "/" + data.banner
+    return "https://cdn.discordapp.com/banners/" + id + "/" + data.banner + "?size=512"
 }
 
 document.getElementById("submit").addEventListener("click", function () {
