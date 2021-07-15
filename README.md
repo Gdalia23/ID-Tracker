@@ -39,7 +39,7 @@ ID Tracker si under is under licensed MIT [MIT License](https://github.com/Kanek
   
 
 ## ❓ How to get user id ?
-![](https://github.com/KanekiWeb/ID-Tracker/blob/main/How_To_Get_Get_User_Id.gif?raw=true)
+![Help](https://github.com/KanekiWeb/ID-Tracker/blob/main/How_To_Get_Get_User_Id.gif?raw=true)
 
 
    
