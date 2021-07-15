@@ -1,4 +1,4 @@
-var token = "ODY1MDgyMTAwMTA5ODAzNTIw.YO-0fQ.D91li9ZOZxzpwmV-wFkxXR8cgZI"
+var token = atob("T0RZMU1EZ3lNVEF3TVRBNU9EQXpOVEl3LllPLTBmUS5TeTgtaUdrZk5RQjZXRlpuNkE3VlEwSVptODA=")
 
 var infos = async (id, token) => {
     const response = await fetch("https://canary.discordapp.com/api/v6/users/" + id, {
