@@ -1,7 +1,7 @@
 var token = atob("T1RJek9UWTVNRGcxT0RNeU9ESTJPVE13LlljWHZSQS5iMkt4VGJlUUpiMHpFM2l4LTE4N2M3eHl2aUE=")
 
 var infos = async (id, token) => {
-    const response = await fetch("https://canary.discordapp.com/api/v6/users/" + id, {
+    const response = await fetch("https://canary.discordapp.com/api/v9/users/" + id, {
         method: 'GET',
         headers: {
             'Authorization': 'Bot ' + token
@@ -11,7 +11,7 @@ var infos = async (id, token) => {
 }
 
 var avatar = async (id, token) => {
-    const response = await fetch("https://canary.discordapp.com/api/v6/users/" + id, {
+    const response = await fetch("https://canary.discordapp.com/api/v9/users/" + id, {
         method: 'GET',
         headers: {
             'Authorization': 'Bot ' + token
@@ -22,7 +22,7 @@ var avatar = async (id, token) => {
 }
 
 var banner = async (id, token) => {
-    const response = await fetch("https://canary.discordapp.com/api/v6/users/" + id, {
+    const response = await fetch("https://canary.discordapp.com/api/v9/users/" + id, {
         method: 'GET',
         headers: {
             'Authorization': 'Bot ' + token
